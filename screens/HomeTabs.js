@@ -42,7 +42,7 @@ export default function HomeTabs() {
         component={() => <Placeholder title="QR" />} 
         options={{
           tabBarIcon: ({ color }) => (
-            <View style={{ backgroundColor: '#ffffff', borderRadius: 40, padding: 10, marginTop: -20, borderWidth: 1, borderColor: '#e0e0e0', shadowColor: '#000', shadowOffset: {width: 0, height: 2}, shadowOpacity: 0.1, shadowRadius: 3, elevation: 5 }}>
+            <View style={{ backgroundColor: '#ffffff', borderRadius: 10, padding: 10, marginTop: -20, borderWidth: 1, borderColor: '#e0e0e0', shadowColor: '#000', shadowOffset: {width: 0, height: 2}, shadowOpacity: 0.1, shadowRadius: 3, elevation: 5, width: 55, height: 55, justifyContent: 'center', alignItems: 'center' }}>
                <Icon name="qrcode-scan" color="#005CEE" size={28} />
             </View>
           ),
